@@ -1,0 +1,17 @@
+fruits_list=["apple","orange","avocado","grapes","mango"]
+
+function printfruits(fruits_list) {console.log(fruit_list);}
+
+(5) ["apple", "orange", "avocado", "grapes", "mango"]
+
+var fruit_index=prompt("from fruits_list pick 3");
+
+console.log(fruits_list[fruit_index]);
+
+function pickfruit(fruit_list,fruit_index)
+
+{alert(fruit_list[fruit_index]);}
+
+VM8713:2 grapes
+
+undefined
