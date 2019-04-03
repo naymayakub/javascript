@@ -1,0 +1,32 @@
+fruit={"orange":30.00,"two-oranges":60.00}
+{orangr:30,two-oranges:60}
+
+
+var quantity = 2;
+undefined
+
+
+function
+
+calculatefruitCost(fruit,quantity)
+
+{fruit={"orange":30.00,"two-oranges":60.00}
+var price=fruit[fruit]*quantity;
+
+console.log(quantity"+"fruit"+for KES"price");}
+
+
+undefined
+
+
+
+calculateItemCost("orange",2);
+
+
+                                                                       VM1760:5
+2 soaps for KES 60.00
+
+undefined
+
+
+
