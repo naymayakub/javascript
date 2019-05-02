@@ -1,0 +1,17 @@
+class KioskCalc {
+  this.fruitsPricelist = { "orange": 30, "mango": 15, "avocado": 40 }; 
+  constractor(myFruit,myQuantity){
+    this.fruit = myFruit;
+    this.quantity = myQuantity;
+  }
+  getPrice(){
+    return this.fruit+''+this.quantity;
+  }
+  get fruit1 = new KioskCalc("orange",30); 
+  get fruit2 = new KioskCalc("mango",15);
+  get fruit3 = new KioskCalc("avocado",40);
+  alert fruit1.getQuantity());
+  alert fruit2.getQuantity());
+  alert fruit3.getQuantity());
+
+}
