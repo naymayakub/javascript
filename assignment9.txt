@@ -1,0 +1,74 @@
+class MumMboga {
+  
+  constructor() {
+    this.products = [];
+    this.carts = [];
+    this.orders = [];
+    this.customers  = [];
+  }
+  addProduct(productId,name,price,quantity){
+    var product = {
+      id:productId,name:name,productPrice:price,quantity:quantity
+    }
+    this.products.push(product)
+    return this.product
+  }
+  var mumMboga = new MumMboga()
+  mumMboga.addProducts(1,'mango',25,5)
+  console.log(mumMboga.product)
+
+}
+mumMboga.getProduct();
+removeProduct(1);
+console.log(mumMboga.products)
+getProduct(productId){
+  for(var i=0;i<this.products.lenght;i++){
+    console.log(this.products[i])
+    if(product.Id===productId){
+      return product
+    }
+    removeProduct(productId){
+      let product = this.getProduct(productId)
+      let index = this.product.indexOf(product)
+      this.product:splice(index,1)
+    }
+    updateProduct(productId,name,price,quantity){
+      myarray.addProduct
+      productId=productId
+      name=name
+      price=price
+      quantity=quantity
+      return myProduct
+    }
+    getProductCatalog(){
+      
+    }
+      removeFromCart(productId)
+      let cartProduct = cartProduct
+      let index = this.products.indexOf(cartProduct)
+      this.products.splice(index,1)
+   
+  }
+  createOrder(orderId, cartId)
+  let index = this.products.indexOf(createOrder)
+      this.products.splice(index,1)
+   
+  
+}
+ cancelOrder(){
+ "do you agree?")
+ ()=>{console.log("you agree")},
+ ()=>{console.log("you conceled the execution")
+  };
+   calculateOrderCost(){
+     price= this.quantity * this.productPriceList[this.products]
+    return this.quantity +" "+ this.product + "For Ksh"+ price
+   }
+   getCustomer(){
+     productId = productId
+     email = email
+     phoneno = phoneno
+     return getCustomer();
+     
+   }
+
